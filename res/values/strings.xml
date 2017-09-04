@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">DM-Test</string><!-- 恢复出厂默认 -->
+    <string name="agreen_tip">我同意并接受以上声明</string>
+    <string name="ok_button_text">确    定</string>
+
+</resources>

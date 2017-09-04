@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout     
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launcher_main_bg">
+ <CheckBox
+        android:id="@+id/launcher_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/agreen_tip"
+        android:textColor="#4d4d4d"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:checked="true"
+        android:layout_marginBottom="6dp"   
+        android:layout_above="@+id/launcher_ok"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/launcher_ok"
+        android:text="@string/ok_button_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/launcher_ok_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorTextButtonnormal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentStart="true" />
+ 
+
+</RelativeLayout>
